@@ -1,0 +1,21 @@
+{
+    "name": "imoisey/docker-compose-builder",
+    "description": "Builder for docker-compose.yml",
+    "type": "library",
+    "require": {
+        "docker-php-client/compose": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Moiseev",
+            "email": "developer.modx@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Imoisey\\DockerComposeBuilder\\": "src"
+        }
+    }
+}
