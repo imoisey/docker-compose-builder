@@ -3,7 +3,7 @@
     "description": "Builder for docker-compose.yml",
     "type": "library",
     "require": {
-        "docker-php-client/compose": "dev-master"
+        "imoisey/docker-compose-client": "~0.1"
     },
     "license": "MIT",
     "authors": [
