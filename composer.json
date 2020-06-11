@@ -17,5 +17,9 @@
         "psr-4": {
             "Imoisey\\DockerComposeBuilder\\": "src"
         }
-    }
+    },
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/imoisey/docker-compose-client.git"
+    }],
 }
